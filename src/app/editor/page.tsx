@@ -8,7 +8,7 @@ export default function EditorPage() {
 
   return (
     <main className="h-screen transition-colors duration-300 bg-background-light dark:bg-background-dark text-foreground-light dark:text-foreground-dark">
-      <Editor value={content} onChange={setContent} />
+      <Editor />
     </main>
   );
 }
